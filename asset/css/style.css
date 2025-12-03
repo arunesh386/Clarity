@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 5rem;
+  box-shadow: 1px 1px 5px lightblue;
+  background-color: #1b1933 !important;
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+  color: white !important;
+  font-weight: 800;
+}
+
+#navbarSupportedContent a {
+  color: #fff;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+#navbarSupportedContent a:hover {
+  border-bottom: 2px solid #524dd3;
+}
+
+#navbarSupportedContent button {
+  background-color: #524dd3;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+#navbarSupportedContent button a{
+  color: white;
+  text-decoration: none;
+}
+/* Home Section */
+#home {
+  background-color: #0a0c2b;
+  color: white;
+  padding-top: 130px;
+  min-height: 100vh;
+}
+
+#home h4{
+    
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+#home p{
+    font-size: 1.2rem;
+    margin-bottom: 3.5rem;
+}
+
+
+
+.btn.home_btn {
+  background-color: #524dd3;
+  border-radius: 25px;
+  color: #fff;
+  height: 56px;
+  width: 7rem;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  text-decoration: none;
+ 
+}
+
+.btn.home_btn a{
+  color: white;
+  text-decoration: none;
+}
+/* Home Image */
+.home_img {
+  width: 600px;
+  height: 550px;
+  /* object-fit: cover; */
+  border-radius: 15px;
+  border: #0a0c2b;
+  /* margin-top: 2rem */
+}
+.starts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; 
+  padding: 50px 0;
+  margin-left: -100px;
+  text-align: center;
+}
+.stat-box h2 {
+  font-size: 2.5rem;
+  font-weight:900;
+  color: #7a5af5; 
+  margin: 0;
+}
+
+.stat-box p {
+  color: #ccc;
+  margin-top: 10px;
+}
+
+/* ABOUT */
+#about{
+  background-color: #0a0c2b;
+  color: white;
+}
+
+#about h4{
+  font-family: var(--heading-font);
+    font-size: 2rem;
+    font-weight: 700;
+    /* padding-top: 2rem; */
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.1rem;
+}
+#about .fas{
+  color: green;
+}
+#about .list-group-item {
+  background-color: #0a0c2b !important; 
+  color: white;
+}
+
+.about_btn{
+  background-color: #524dd3;
+  padding: 5px;
+  margin: 5px;
+  height: 3rem;
+  width: 9rem;
+  border-radius: 24px;
+  text-align: center;
+}
+
+/* Services */
+#Services{
+  background-color: #0a0c2b;
+  color: white;
+  min-height: 100vh;
+}
+#Services .card{
+  background-color: #0a0c2b;
+  border: 2px solid lightblue;
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+#Services .card:hover{
+    transform: translateY(-10px) scale(1.05); 
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2); 
+    cursor: pointer;
+}
+
+/* contact */
+.portfolio-section{
+    background: #0a0c2b;
+    color: white;
+    padding: 60px 0;
+}
+
+.portfolio-card {
+    background: #0b1226;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Skill Tag */
+.skill-tag {
+    background: #1a233b;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #d6d9f5;
+}
+
+.bg-purple {
+    background-color: #4b2b84 !important;
+}
+
+/* contact */
+
+#contact{
+  background-color: #0a0c2b;
+  color: white;
+  min-height: 100vh;
+}
+
+#contact form{
+  background-color: #1a233b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#contact .form-control{
+  background-color: #1a233b;
+  border: 2px solid #524dd3;
+  color: white;
+}
